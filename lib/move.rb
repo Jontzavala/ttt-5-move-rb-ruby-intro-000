@@ -9,7 +9,7 @@ it 'converts a user_input to an integer' do
     user_input = "1"
 
     converted_input = input_to_index(user_input)
-    expect(input_to_index(user_input)).to be_a(Integer)	
+    expect(input_to_index(user_input)).to be_a(Integer)
     expect(converted_input).to be_a(Integer)
   end
 
@@ -27,6 +27,6 @@ it 'converts a user_input to an integer' do
     user_input = "invalid"
 
     converted_input = input_to_index(user_input)
-    expect(input_to_index(user_input)).to be(-1)	
+    expect(input_to_index(user_input)).to be(-1)
     expect(converted_input).to be(-1)
   end

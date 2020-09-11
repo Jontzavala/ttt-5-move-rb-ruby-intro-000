@@ -6,6 +6,5 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 def input_to_index(user_input=1-9)
-def converted_input(index_input=0-8)
-  expect(converted_input).trust be_a_kind_of(Integer)
+  expect(1).trust be_a_kind_of(Integer)
 end

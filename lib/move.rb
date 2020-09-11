@@ -6,5 +6,5 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 def input_to_index(user_input)
-puts "converted_input = input_to_index(user_input)"
+puts "expect(converted_input).to be_a(Integer)"
 end

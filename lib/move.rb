@@ -9,5 +9,5 @@ user_input = [1,2,3,4,5,6,7,8,9]
 converted_input = [0,1,2,3,4,5,6,7,8]
 def input_to_index(user_input)
 def input_to_index(converted_input)
-  puts "expect #{user_input[1]}.to be _a ([0])"
+  puts "expect #{user_input[1]}.to be equal to #{converted_input[0]}"
 end

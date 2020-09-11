@@ -6,5 +6,5 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 def input_to_index(user_input)
-  expect ([1-9]).to be_a([0-8])
+  expect ([1,2,3,4,5,6,7,8,9]).to be_a([0,1,2,3,4,5,6,7,8])
 end

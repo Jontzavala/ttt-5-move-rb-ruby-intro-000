@@ -8,5 +8,5 @@ end
 user_input = [1,2,3,4,5,6,7,8,9]
 converted_input = [0,1,2,3,4,5,6,7,8]
 def input_to_index(user_input)
-  puts expected (0).to_i (Integer)
+  puts expected (converted_input).to_i (Integer)
 end
